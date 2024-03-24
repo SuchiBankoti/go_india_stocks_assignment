@@ -1,0 +1,74 @@
+{
+  "forums": [
+    {
+      "id": 1,
+      "name": "Lorem Ipsum",
+      "sector": "select 1",
+      "likes": "2k",
+      "views": "2k",
+      "comments": "2k",
+      "profilePicture": "https://robohash.org/Terry.png?set=set4",
+      "timePost": "2 min ago",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is delectus."
+    },
+    {
+      "id": 1,
+      "name": "Lorem Ipsum",
+      "sector": "select 2",
+      "likes": "2k",
+      "views": "2k",
+      "comments": "2k",
+      "profilePicture": "https://robohash.org/Sheldon.png?set=set4",
+      "timePost": "3 min ago",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is delectus."
+    },
+    {
+      "id": 1,
+      "name": "Terry Ipsum",
+      "sector": "select 3",
+      "likes": "2k",
+      "views": "2k",
+      "comments": "2k",
+      "profilePicture": "https://robohash.org/Terry.png?set=set4",
+      "timePost": "5 min ago",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is delectus."
+    },
+    {
+      "id": 1,
+      "name": "Terry Ipsum",
+      "sector": "select 4",
+      "likes": "2k",
+      "views": "2k",
+      "comments": "2k",
+      "profilePicture": "https://robohash.org/Sheldon.png?set=set4",
+      "timePost": "7 min ago",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is delectus."
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "coverImage": "https://plus.unsplash.com/premium_photo-1681422570054-9ae5b8b03e46?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "The Coldest Sun",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum eius assumenda temporibus magnam fuga veritatis delectus perspiciatis vero."
+    },
+    {
+      "id": 1,
+      "coverImage": "https://plus.unsplash.com/premium_photo-1681422570141-eba2cf503901?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "The Coldest Sun",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum eius assumenda temporibus magnam fuga veritatis delectus perspiciatis vero."
+    },
+    {
+      "id": 1,
+      "coverImage": "https://plus.unsplash.com/premium_photo-1681422570054-9ae5b8b03e46?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "The Coldest Sun",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum eius assumenda temporibus magnam fuga veritatis delectus perspiciatis vero."
+    },
+    {
+      "id": 1,
+      "coverImage": "https://plus.unsplash.com/premium_photo-1681422570141-eba2cf503901?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "The Coldest Sun",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum eius assumenda temporibus magnam fuga veritatis delectus perspiciatis vero."
+    }
+  ]
+}
