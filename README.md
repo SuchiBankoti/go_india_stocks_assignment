@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Install Dependencies:
+npm install
+This command will install all the dependencies listed in package.json file.
+
+Start the Development Server:
+you can start the development server by running:
+npm run dev
+This command will start the Next.js development server, and the application will be accessible
+
 First, run the development server:
 
 ```bash

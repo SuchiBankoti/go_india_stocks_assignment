@@ -16,7 +16,7 @@ export default function Tab(props: {
         alt="profile"
         width={200}
         height={200}
-        className="w-full h-32 rounded-t"
+        className="w-full h-36 rounded-t"
       ></Image>
       <div className="flex flex-col justify-between w-full p-2 text-xs">
         <div className="flex gap-2 my-1 font-semibold">{title}</div>

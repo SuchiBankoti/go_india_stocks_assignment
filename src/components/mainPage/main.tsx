@@ -29,24 +29,6 @@ export default function MainPage() {
           activeTab={activeTab}
         />
       )}
-      {/* <>
-        <div className="flex w-full h-8 my-2 gap-14">
-          <div className="w-2/3">
-            <p className="w-fit bg-slate-300 text-red-500 p-1 rounded text-xl font-bold">
-              DISSCUSSION FORUMS
-            </p>
-          </div>
-          <div className="w-1/3">
-            <p className="w-fit bg-slate-300 text-red-500 p-1 rounded text-xl font-bold">
-              MARKET STORIES
-            </p>
-          </div>
-        </div>
-        <div className="flex bg-white gap-14 mt-11">
-          <DisscussionForum />
-          <MarketStories />
-        </div>
-      </> */}
     </div>
   );
 }
@@ -54,7 +36,7 @@ export default function MainPage() {
 const DesktopComponent = () => {
   return (
     <>
-      <div className="flex w-full h-8 my-2 gap-14">
+      <div className="flex w-full h-8 my-2 gap-28">
         <div className="w-2/3">
           <p className="w-fit bg-slate-300 text-red-500 p-1 rounded text-xl font-bold">
             DISSCUSSION FORUMS
@@ -66,7 +48,7 @@ const DesktopComponent = () => {
           </p>
         </div>
       </div>
-      <div className="flex bg-white gap-14 mt-11">
+      <div className="flex bg-white gap-28 mt-11">
         <DisscussionForum />
         <MarketStories />
       </div>

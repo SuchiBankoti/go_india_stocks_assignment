@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CiUser } from "react-icons/ci";
 import { GoBell } from "react-icons/go";
 import { MdArrowRight, MdMessage } from "react-icons/md";
@@ -7,12 +7,24 @@ import { RiMoneyDollarBoxFill } from "react-icons/ri";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <div
       className={`bg-sky-800 h-screen
-    ${open ? "w-72" : "w-2"}
+    ${open ? (isMobile ? "w-1/2" : "w-1/3") : "w-2"}
     duration-300
-    relative`}
+    ${isMobile ? "absolute" : "relative"}`}
     >
       <div className={`w-full ${open ? "flex" : "hidden"} flex-col gap-8 pt-6`}>
         <div className="flex items-center justify-between p-2 hover:bg-sky-600">
